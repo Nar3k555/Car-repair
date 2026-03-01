@@ -56,7 +56,7 @@ body {
 }
 
 .intro {
-  background-image: url(/img/road.jpg);
+  background-image: url("/img/road.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -369,5 +369,6 @@ body {
   filter: brightness(0) invert(1);
   cursor: pointer;
 }
+
 
 
