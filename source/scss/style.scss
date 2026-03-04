@@ -109,8 +109,8 @@ body {
 }
 
 .intro__block::before {
-  content: "";
-  background-image: url("../../img/call.svg");
+  content: '';
+  background-image: url('../../img/call.svg');
   background-repeat: no-repeat;
   width: 30px;
   height: 30px;
@@ -120,13 +120,13 @@ body {
 }
 
 .intro__block_calendar::before {
-  content: "";
-  background-image: url("../../img/calendar.svg");
+  content: '';
+  background-image: url('../../img/calendar.svg');
 }
 
 .intro__block_location::before {
-  content: "";
-  background-image: url("../../img/maps-and-flags.svg");
+  content: '';
+  background-image: url('../../img/maps-and-flags.svg');
 }
 
 .services {
@@ -170,7 +170,7 @@ body {
 }
 
 .service__block:hover::before {
-  content: url("../../img/plus.png");
+  content: url('../../img/plus.png');
   width: 100px;
   height: 100px;
   position: absolute;
@@ -181,7 +181,7 @@ body {
 }
 
 .service__block:hover::after {
-  content: "ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH";
+  content: 'ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH';
   width: 55%;
   height: auto;
   position: absolute;
@@ -367,6 +367,7 @@ body {
   filter: brightness(0) invert(1);
   cursor: pointer;
 }
+
 
 
 
