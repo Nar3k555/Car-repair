@@ -56,7 +56,7 @@ body {
 }
 
 .intro {
-  background-image: url(/img/road.jpg);
+  background-image: url("../../img/road.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -110,7 +110,7 @@ body {
 
 .intro__block::before {
   content: "";
-  background-image: url(/img/call\ .svg);
+  background-image: url("../../img/call.svg");
   background-repeat: no-repeat;
   width: 30px;
   height: 30px;
@@ -121,12 +121,12 @@ body {
 
 .intro__block_calendar::before {
   content: "";
-  background-image: url(/img/calendar.svg);
+  background-image: url("../../img/calendar.svg");
 }
 
 .intro__block_location::before {
   content: "";
-  background-image: url(/img/maps-and-flags\ .svg);
+  background-image: url("../../img/maps-and-flags.svg");
 }
 
 .services {
@@ -170,7 +170,7 @@ body {
 }
 
 .service__block:hover::before {
-  content: url(/img/plus.png);
+  content: url("../../img/plus.png");
   width: 100px;
   height: 100px;
   position: absolute;
@@ -329,10 +329,6 @@ body {
   margin-bottom: 40px;
 }
 
-.contact input::-moz-placeholder, .contact textarea::-moz-placeholder {
-  color: #999;
-}
-
 .contact input::placeholder,
 .contact textarea::placeholder {
   color: #999;
@@ -370,4 +366,6 @@ body {
   height: 18px;
   filter: brightness(0) invert(1);
   cursor: pointer;
+}
+
 }/*# sourceMappingURL=style.css.map */
